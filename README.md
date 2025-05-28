@@ -1,5 +1,5 @@
 steps for encode/decoding files:
-1. compile the program with compiler of choice
+1. compile the program with compiler of choice (gcc -Wall -o AudioEncoder AudioEncoder.c)
 2. to encode run ".\AudioEncoder.exe encode (source file) (destination file)"
      note: destination file always has to be a .wav as of now
 3. to decode run ".\AudioEncoder.exe decode (source file) (destination file)"
